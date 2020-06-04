@@ -16,6 +16,7 @@ namespace DockerAPI.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            var teste1 = "primeiro commit";
         }
 
         public IActionResult Index()
