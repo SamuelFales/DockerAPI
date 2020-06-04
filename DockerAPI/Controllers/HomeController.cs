@@ -21,6 +21,7 @@ namespace DockerAPI.Controllers
         public IActionResult Index()
         {
             return View();
+            var teste1 = "primeiro commit";
         }
 
         public IActionResult Privacy()
